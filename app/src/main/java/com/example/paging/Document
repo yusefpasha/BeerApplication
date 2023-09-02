@@ -1,0 +1,6 @@
+Website for API -> https://punkapi.com/documentation/v2
+
+Ktor Doc ->
+    1- https://ktor.io/docs/request.html#cancel-request
+    2- https://ktor.io/docs/type-safe-request.html
+    3- https://ktor.io/docs/default-request.html
