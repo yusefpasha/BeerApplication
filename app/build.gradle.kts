@@ -77,21 +77,11 @@ dependencies {
 
     implementation("io.insert-koin:koin-androidx-compose:3.4.5")
 
-    implementation("com.google.accompanist:accompanist-systemuicontroller:0.30.1")
-
-    implementation("com.airbnb.android:lottie-compose:6.1.0")
-
     implementation("androidx.room:room-paging:2.5.2")
     implementation("androidx.room:room-ktx:2.5.2")
     ksp("androidx.room:room-compiler:2.5.2")
 
-    implementation("androidx.datastore:datastore-preferences:1.0.0")
-
-    implementation("com.google.accompanist:accompanist-permissions:0.30.1")
-
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.5.1")
-
-    implementation("androidx.constraintlayout:constraintlayout-compose:1.0.1")
 
     implementation("androidx.paging:paging-compose:3.2.0")
     implementation("androidx.paging:paging-runtime-ktx:3.2.0")

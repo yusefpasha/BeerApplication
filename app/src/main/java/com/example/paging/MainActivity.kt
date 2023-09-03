@@ -9,7 +9,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.IntrinsicSize
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -164,7 +163,7 @@ class MainActivity : ComponentActivity() {
                             .alpha(0.7F)
                             .clip(MaterialTheme.shapes.small)
                             .clickable { descriptionOverFlow = descriptionOverFlow.not() },
-                        maxLines = if (descriptionOverFlow) Int.MAX_VALUE else 4,
+                        maxLines = if (descriptionOverFlow) Int.MAX_VALUE else 2,
                         overflow = TextOverflow.Ellipsis,
                         style = MaterialTheme.typography.bodySmall
                     )
