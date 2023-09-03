@@ -66,6 +66,8 @@ dependencies {
 
     implementation("io.ktor:ktor-client-android:2.3.4")
     implementation("io.ktor:ktor-client-logging:2.3.4")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.4")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.4")
 
     implementation("androidx.navigation:navigation-compose:2.7.1")
 
@@ -78,6 +80,7 @@ dependencies {
 
     implementation("com.airbnb.android:lottie-compose:6.1.0")
 
+    implementation("androidx.room:room-paging:2.5.2")
     implementation("androidx.room:room-ktx:2.5.2")
     ksp("androidx.room:room-compiler:2.5.2")
 
