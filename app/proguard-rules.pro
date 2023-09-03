@@ -19,3 +19,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+-dontwarn org.slf4j.impl.StaticLoggerBinder
+
+-keep class com.example.paging.domain.Beer
+-keep class com.example.paging.data.remote.BeerDto
+-keep class com.example.paging.data.local.BeerEntity
